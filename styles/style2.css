@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* container box */
+
+.wrap_container {
+
+    width: 80%;
+    aspect-ratio: 1;
+    margin: 2rem auto;
+    background-image: url(/images/bcg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 3.75rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+
+}
+
+#primary-heading {
+    text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px #F90, 0px -20px 40px #C33;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.secondary_heading {
+    border-bottom: 2px solid grey;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.inputBox {
+    /* border: 2px solid black; */
+    padding: 1.5rem 0;
+}
+
+.heading_level {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.information_box {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.8rem;
+}
+
+.information_box .name {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: none;
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.information_box .name:focus {
+    outline: none;
+    border: none;
+}
+
+.dob_info_box {
+    width: 50%;
+
+}
+
+.heading_gender {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.gender_box {
+
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.gender_input_box {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.gender_input_box .circle_shape{
+    width: 20px;
+    height: 20px;
+}
+
+.address_info_box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 10px 18px;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+

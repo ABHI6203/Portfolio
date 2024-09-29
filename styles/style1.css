@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: #091C2A;
+}
+
+.container_wrap {
+    padding: 1rem 3.5rem;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #ededed;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2.5rem;
+    letter-spacing: 0.05rem;
+
+}
+
+.item-list a {
+    color: #ededed;
+    font-size: 1.5rem;
+}
+
+.item-list a:hover {
+    color: #00abf0;
+}
+
+
+
+
+
+.hero_section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    gap: 2.5rem;
+    padding: 2.5rem 0;
+    margin-top: 3.45rem;
+}
+
+.personal_info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    line-height: 1.3;
+    gap: 1.2rem;
+    /* aspect-ratio: 1; */
+}
+
+.p_details {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.p_details h2 {
+    color: #00abf0;
+    font-size: 1.9rem;
+}
+
+.objective_details {
+    color: aliceblue;
+    line-height: 1.4;
+    margin: 0.75rem 0;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.button_box {
+    /* border: 1px solid red; */
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.7rem;
+
+}
+
+.button_box a {
+    font-size: 1.2rem;
+    background-color: #00abf0;
+    color: #081b29;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #00abf0;
+    transition: 0.3s;
+
+}
+
+.button_box a:nth-child(2) {
+    background-color: transparent;
+    color: #00abf0;
+    transition: 0.3s;
+}
+
+.button_box a:hover {
+    background-color: transparent;
+    color: #00abf0;
+}
+
+
+.button_box a:nth-child(2):hover {
+    background-color: #00abf0;
+    color: #081b29;
+}
+
+
+/* .hero_image {
+    position: relative;
+    width: 520px;
+    height: 320px;
+  
+} */
+
+.hero_image img {
+    position: absolute;
+    right: 1rem;
+    width: 560px;
+    height: 550px;
+    top: -55px;
+
+}
+
+
+
+
+.icon_box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 1.7rem;
+    width: 50%;
+}
+
+.icon_box a {
+    font-size: 1.4rem;
+    color: #00abf0;
+
+}
+
+.icon_box .bx {
+    border: 2px solid #00abf0;
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.icon_box .bx:hover {
+    background-color: #00abf0;
+    color: #081b29;
+}

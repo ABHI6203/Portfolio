@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="/styles/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+
+    <!-- container box -->
+    <div class="wrap_container">
+        <h1 id="primary-heading">Personal Information Form</h1>
+        <h2 class="secondary_heading">General Info</h2>
+
+        <!-- form content starts -->
+        
+        <!-- box for name -->
+        <div class="inputBox">
+            <label for="Name" class="heading_level">Name</label>
+            <!-- special box for user input -->
+            <div class="information_box name_info_box">
+                <input type="text" placeholder="First Name" class="name" name="Name">
+                <input type="text" placeholder="Last Name" class="name" name="Name">
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <label for="dob" class="heading_level">Date of Birth</label>
+            <!-- special box for user input -->
+            <div class="information_box dob_info_box">
+                <input type="date" placeholder="dd-mmm-yyyy" class="name" id="dob">
+            </div>
+        </div>
+
+        <!-- input box for gender  -->
+        <div class="inputBox">
+            <label for="gender" class="heading_level">Gender</label>
+            <div class="information_box gender_box">
+                <div class="gender_input_box">
+                    <input type="radio" name="gender" id="male" class="circle_shape">
+                    <label for="male" class="heading_gender">Male</label>
+                </div>
+
+                <div class="gender_input_box">
+                    <input type="radio" name="gender" id="female" class="circle_shape">
+                    <label for="female" class="heading_gender">Female</label>
+                </div>
+
+                <div class="gender_input_box">
+                    <input type="radio" name="gender" id="others" class="circle_shape">
+                    <label for="others" class="heading_gender">Others</label>
+                </div>
+
+                
+            </div>
+        </div>
+
+       
+        <div class="inputBox">
+            <label for="marriage" class="heading_level">Marital Status</label>
+            <!-- special box for user input -->
+            <div class="information_box">
+                <select name="marital_status" class="name" required>
+                    <option value="" disabled selected>Select Marital Status</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="divorced">Divorced</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="inputBox">
+            <label for="nationality" class="heading_level">Nationality</label>
+            <!-- special box for user input -->
+            <div class="information_box">
+                <input type="text" class="name">
+            </div>
+        </div>
+
+
+        <div class="inputBox">
+            <label for="address" class="heading_level">Address</label>
+            <!-- special box for user input -->
+            <div class="information_box address_info_box">
+                <input type="text" class="name" placeholder="Address Line 1">
+                <input type="text" class="name" placeholder="Address Line 2">
+                <div class="information_box name_info_box">
+                    <input type="text" placeholder="city" class="name">
+                    <input type="text" placeholder="State/Region/Province" class="name" >
+                </div>
+                <div class="information_box name_info_box">
+                    <input type="text" placeholder="Postal/Zip Code" class="name">
+                    <select name="country" id="country" class="name">
+                        <option value="" disabled selected>Country</option>
+                        <option value="india">India</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="china">China</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <label for="email" class="heading_level">Email</label>
+            <!-- special box for user input -->
+            <div class="information_box">
+                <input type="email" class="name" placeholder="xyz@gmail.com">
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <label for="phone" class="heading_level">Phone Number</label>
+            <!-- special box for user input -->
+            <div class="information_box">
+                <input type="tel" class="name" placeholder="0123-456-789">
+            </div>
+        </div>
+
+
+        <div class="button">
+            <input type="submit" value="Submit" class="btn">
+        </div>
+
+
+
+
+
+     
+    </div>
+
+
+
+</body>
+</html>
